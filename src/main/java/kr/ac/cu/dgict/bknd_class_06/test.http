@@ -1,0 +1,14 @@
+POST http://127.0.0.1:8080/board
+Content-Type: application/json
+
+{
+    "author":"rla",
+    "subject":"di",
+    "content":"asdasd"
+}
+
+GET http://127.0.0.1:8080/board/1
+
+GET http://127.0.0.1:8080/board/2
+
+
